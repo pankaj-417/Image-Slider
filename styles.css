@@ -1,0 +1,52 @@
+.gallery {
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.image-container {
+  padding: 30px;
+  margin: 10px;
+  width: 80%;
+  height: 600px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.navigation {
+  margin-top: 20px;
+}
+
+button {
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+#prev-button {
+  color: black;
+  background-color: rgb(58, 250, 58);
+}
+#next-button {
+  color: black;
+  background-color: rgb(250, 58, 80);
+}
+.navb {
+  background-color: #da08ed2c;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  font-family: sans-serif;
+}
